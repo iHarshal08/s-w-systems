@@ -5,10 +5,10 @@
 
 int main() {
     while (1) {
-        FILE *logfile = fopen("3_logfile.txt", "a");
+        FILE *logfile = fopen("2_logfile.txt", "a");
         if (logfile) {
             fprintf(logfile, "Timestamp: %s", ctime(&(time_t){time(NULL)}));
-            system("ls /proc >> 3_logfile.txt");
+            system("ls /proc >> 2_logfile.txt");
             fprintf(logfile, "-----\n");
             fclose(logfile);
         }
