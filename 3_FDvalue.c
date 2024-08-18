@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <fcntl.h>  // For creat() and O_RDWR
-#include <unistd.h> // For close()
+#include <fcntl.h>  
+#include <unistd.h> 
 #include <sys/stat.h>
 
 int main() {
