@@ -1,3 +1,2 @@
-# s-w-systems
-Repository for s/w systems assignment.
+Repository for HL1.
 Author: Harshal Purohit (MT2024056)
