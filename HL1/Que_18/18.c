@@ -62,7 +62,6 @@ int main() {
         perror("Failed to open file");
         return EXIT_FAILURE;
     }
-
     // Initialize file with records if empty
     char initial_records[NUM_RECORDS][RECORD_SIZE] = {
         "Record 1: Initial Data",

@@ -35,13 +35,10 @@ void print_file_type(mode_t mode) {
 }
 
 int main() {
-    const char *file_path = "file_type.txt";  
+    const char *file_path = "14.txt";  
     struct stat file_stat;
 
-    if (stat(file_path, &file_stat) == -1) {
-        perror("stat");
-        exit(EXIT_FAILURE);
-    }
+    stat(file_path, &file_stat);
 
     print_file_type(file_stat.st_mode);
 

@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+#include <signal.h>
+
+void timer_handler(int signum) {
+    printf("Timer expired! (ITIMER_PROF)\n");
+}
+
+int main() {
+    struct itimerval timer;
+    signal(SIGPROF, timer_handler);
+    
+    // Configure the timer to expire after 10 seconds and 10 microseconds
+    timer.it_value.tv_sec = 10;
+    timer.it_value.tv_usec = 10;
+
+    // Configure the timer to reset to the same interval
+    timer.it_interval.tv_sec = 10;
+    timer.it_interval.tv_usec = 10;
+
+    setitimer(ITIMER_PROF, &timer, NULL);
+    while (1);
+
+    return 0;
+}
