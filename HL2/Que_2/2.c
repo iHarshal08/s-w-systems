@@ -1,6 +1,6 @@
 /*
 ===========================================================================================================================
-Name : 1a.c
+Name : 2.c
 Author : Harshal Purohit
 Description : Write a program to print the system resource limits. Use getrlimit system call.
 Date: 2nd Sept, 2024.
