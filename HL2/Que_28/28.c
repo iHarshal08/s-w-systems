@@ -2,7 +2,7 @@
 ===========================================================================================================================
 Name : 28.c
 Author : Harshal Purohit
-Description : Write a program to send messages to the message queue. Check $ipcs -q
+Description : Write a program to change the exiting message queue permission. (use msqid_ds structure)
 Date: 10th Sept, 2024.
 ===========================================================================================================================
 */
