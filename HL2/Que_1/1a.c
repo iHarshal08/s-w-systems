@@ -7,7 +7,7 @@ Description : Write a separate program (for each time domain) to set a interval 
         a. ITIMER_REAL
         b. ITIMER_VIRTUAL
         c. ITIMER_PROF
-Date: 1st Sept, 2024.
+Date: 1st Sept, 2024
 ===========================================================================================================================
 */
 
