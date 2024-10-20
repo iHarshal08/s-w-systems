@@ -1,0 +1,10 @@
+customer2 | Deposit | 1000.00 | Sun Oct 13 12:44:26 2024
+customer2 | Withdrawal | 500.00 | Sun Oct 13 12:44:45 2024
+customer2 | Transfer | 300.00 | Sun Oct 13 12:45:32 2024
+customer3 | Deposit | 2000.00 | Sun Oct 13 13:09:15 2024
+customer1 | Deposit | 100.00 | Sun Oct 13 22:36:26 2024
+customer1 | Transfer | 1000.00 | Sun Oct 13 22:36:40 2024
+customer5 | Deposit | 700.00 | Wed Oct 16 20:42:25 2024
+customer5 | Withdrawal | 1000.00 | Wed Oct 16 20:42:39 2024
+customer3 | Deposit | 2000.00 | Sun Oct 20 09:41:06 2024
+customer3 | Transfer | 1000.00 | Sun Oct 20 09:41:58 2024
