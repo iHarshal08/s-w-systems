@@ -1,0 +1,2 @@
+customer1 50000.00 car 40000.00 employed 735302433
+customer4 50000.00 education 40000.00 unemployed 8457965213
