@@ -36,6 +36,7 @@ int main() {
     setitimer(ITIMER_PROF, &timer, NULL);
 
     printf("Waiting for profiling timer alarm...\n");
+    for (long long i = 0; i < 1e10; ++i);
     pause();  // Wait for signal
 
     return 0;
